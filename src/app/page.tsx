@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button } from '../components/ui/button';
+import HeroSection from '@/components/base/HeroSection';
 
 export default function page() {
 	return (
 		<div>
-			<h1 className="text-red-500">I am home page</h1>
-			<Button>Hello world</Button>
+			<HeroSection />
 		</div>
 	);
 }
